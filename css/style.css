@@ -88,18 +88,30 @@ nav span {
     visibility: hidden;
 }
 
+figure img{
+    visibility: hidden;
+}
+
 @media screen and (min-width:768px) {
     header h1 {
         text-align: start;
         font-size: xx-large;
     }
 
+    .container{
+        max-width: 600px;
+    }
+
     h2 span {
         visibility: visible;
     }
 
+    figure img {
+        visibility: visible;
+    }
+
     .box{
-        width: 550px;
+        width: 600px;
     }
 
     ul{
